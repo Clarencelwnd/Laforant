@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAFTAR</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="daftar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+   <script src="daftar.js" defer></script>
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+<img src="asset/LF_wh.png" alt="" >
+        </div>
+        <div class="LF">
+           <img src="asset/LAFO.png" height="80px">
+        </div>
+        <div class="dropdown">
+       <nav>
+           <ul>
+               <li><a href="P_HOME.html">MENU UTAMA</a></li>
+               <li><a href="#">INFO PERMAINAN 
+                <i class="fas fa-caret-down"></i> </a>
+                 <ul>
+                 <li><a href="peta.html">PETA</li>
+                 <li><a href="agen.html">AGEN</a></li>
+                 </ul>
+            </li>
+            <li><a href="#">SOSIAL <i class="fas fa-caret-down"></i>
+               </a>
+                 <ul>
+                 <li><a href="https://instagram.com">INSTAGRAM</li>
+                 <li><a href="https://facebook.com">FACEBOOK</a></li>
+                 <li><a href="https://youtube.com">YOUTUBE</a></li>
+                 </ul>
+            </li>
+                <li><a href="spek.html">DUKUNGAN</a></li>
+                <li id="daftar"><a href="daftar.html">DAFTAR SEKARANG</a></li>
+           </ul>
+       </nav>
+    </div>
+    <div class="menu">
+        <nav>
+        <ul>
+        <li><a href="#"><i class="fas fa-bars"></i></a>
+        <ul>
+        <li>  <a href="P_HOME.html">MENU UTAMA</a></li>
+        <li><a href="daftar.html">DAFTAR</a></li>
+        <li><a href="spek.html">DUKUNGAN</a></li>
+        <li><a href="#"> <i style="transform: rotate(90deg);" class="fas fa-caret-down"></i> INFO GAME</a>
+        <ul>
+            <li> <a href="peta.html">PETA</a> </li>
+            <li><a href="agen.html">AGEN</a></li>
+        </ul>
+        </li>
+        
+        </ul>
+        </li>
+        </ul>
+        </nav>
+                </ul>
+                </li>
+               </div>
+</header>
+<script type="text/javascript">
+    window.addEventListener('scroll', function(){
+     var header = document.querySelector("header");
+     header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+<div class="batas">
+    <br><br>
+</div> 
+
+<div class="Formulir">
+<form action="" method="POST" id="form">
+
+  <h2>PENDAFTARAN</h2>  
+
+ <div class="form-group">
+    <input   type="text" name="nama" id="nama" placeholder="Nama"
+    class="form-control">
+ </div>
+ <div class="form-group">
+    <input  type="email" name="email" id="email" placeholder="email"
+    class="form-control">
+ </div>
+ <div class="form-group">
+    <input  type="password" name="kata sandi" id="kata_sandi" placeholder="Kata Sandi"
+    class="form-control">
+ </div>
+ <div class="form-group">
+    <input  type="text" name="kebangsaan" id="kebangsaan" placeholder="kebangsaan"
+    class="form-control">
+ </div>
+ <div class="form-group">
+    <input  type="checkbox" name="persetujuan" id="persetujuan">
+    <label for="persetujuan">Saya setuju dengan syarat dan 
+        ketentuan</label>
+ </div>
+ <div class="form-group">
+     <label for="" id="error"></label>
+ </div> 
+
+<div class="form-group">
+    <button type="submit" class="form-control">
+        Daftar
+    </button>
+</div>
+</form>
+</div>
+
+<div class="footer">
+    <div class="lambang">
+        <img src="asset/LAF_LOGO_FOOTER.png" alt="" height="100px">
+    </div>
+    <div class="sosmed">
+        <a href="https://facebook.com">
+            <img src="asset/fb1.png" alt="">
+        </a>
+        <a href="https://youtube.com">
+            <img src="asset/yt1.png" alt="">
+        </a>
+        <a href="https://instagram.com">
+            <img src="asset/insta1.png" alt="">
+        </a>
+    </div>
+    
+    <div class="footer-text">
+        <h4>&copy;2021 Laf Games, Inc. LaForant, DAN SEMUA LOGO TERKAIT ADALAH <br>
+            MEREK DAGANG, MEREK LAYANAN TERDAFTAR Laf Game, Inc.
+        </h4>
+    </div>
+    
+    </div>
+
+</body>
+</html>
